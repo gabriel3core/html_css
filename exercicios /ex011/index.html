@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video em html5</title>
+</head>
+<body>
+    <h1>Inseridos videos hospedados localmente</h1>
+    <p>Este video esta hosperado no meu proprio servidor</p>
+    <video controls poster="img/pao do queijo.png" width="300">
+        <source src="midia/pao de queijo.webm" type="video/webm">
+        <source src="midia/pao de queijo.mp4" type="video/mp4">
+        <source src="midia/pao de queijo.ogv" type="video/ogv">
+        <source src="midia/pao de queijo.m4v" type="video/m4v">
+        <p>Seu navegador nao tem compatibilidade</p>
+    </video>
+    
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rdAQJBOHVfA?si=zV6_DkAOk3D8y_xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/743190889?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:62%;height:100%;" title="What's in a Name?"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</html>

@@ -1,0 +1,108 @@
+Tags do html:
+
+h1 - titulo de hierarquia 1
+h2 - titulo de hierarquia 2
+h3 - titulo de hierarquia 3
+h4 - titulo de hierarquia 4
+h5 - titulo de hierarquia 5
+h6 - titulo de hierarquia 6
+p - paragrafo 
+hr - linha horizontal
+br - quebra linha em html
+<!-- - comentario em html
+&lt - less than (simbolo menor)
+&gt - greater than (simbolo maior)
+&#x (codigo do emojipedia) - para colocar os emojis 
+img - carregar imagens
+address - Colocar em italico um endereço
+b / strong(semantico) - colocar um termo em negrito
+mark - marcador de um termo
+small - texto com a letra pequena
+del - texto excluido
+sup - texto sobrescrito
+sub - texto subscrito
+code - letra monoespaçada
+pre - representar texto pré-formatado.
+blockquote - o texto e uma sitacao
+a - criar um link
+rel - indicar a relacao entre os urls dos componentes em uma serie de paginas
+target - abrir uma nova guia ou janela quando o usuario clica nesse link
+abbr - abreviacoes 
+source - tag de imagem dinamica
+download - tag para baixar arquivos
+video - tag para hospedar videos no site
+audio - tag para hospedar audios no site
+controls - para aparecer os controles de midia (pausar, diminuir som e etc)
+loop - rodar a midia varias vezes
+muted - tirar o som da midia
+
+--------------------------------------------------------------
+
+Alguns caracteres especiais:
+
+Espaço em branco - &nbsp;
+® Marca registrada - &reg;
+© Copyright - &copy;
+™ Trade Mark - &trade;
+€ Euro -  &euro;
+£ Libra (pound) - &pound;
+¥ Yen - &yen;
+¢ Cent - &cent;
+∅ Vazio - &empty;
+∑ Soma - &sum;
+Δ Delta - &Delta;
+← Seta esquerda - &larr;
+↑ Seta acima - &uarr;
+→ Seta direita - &rarr;
+↓ Seta baixo - &darr;
+
+--------------------------------------------------------------
+
+target =
+_blank - Abre o documento vinculado numa nova janela ou guia
+_self - Abre o documento vinculado no mesmo quadro em que foi clicado (isso é padrão)
+_parent - Abre o documento vinculado no quadro dos pais
+_top - Abre o documento vinculado em todo o corpo da janela
+framename - Abre o documento vinculado no iframe nomeado
+
+--------------------------------------------------------------
+
+rel = 
+
+alternate - Fornece um link para uma representação alternativa do documento (ou seja, página de impressão, traduzida ou espelho)
+
+author - Fornece um link para o autor do documento
+
+bookmarking - URL permanente usado para bookmarking
+
+external - Indica que o documento referenciado não faz parte do mesmo site que o documento atual
+
+help - Fornece um link para um documento de ajuda
+
+license - Fornece um link para informações de licenciamento para o documento
+
+next - Fornece um link para o próximo documento da série
+
+nofollow - Links para um documento não endossado, como um link pago.("nofollow" é usado pelo Google, para especificar que o spider de pesquisa do Google não deve seguir esse link)
+
+noopener - Exige que qualquer contexto de navegação criado seguindo o hiperlink não deve ter um contexto de navegação de abertura
+
+noreferrer - Torna o referenciador desconhecido. Nenhum cabeçalho de árbitro será incluído quando o usuário clicar no hiperlink
+
+prev - O documento anterior em uma seleção
+
+search - Links para uma ferramenta de pesquisa para o documento
+
+tag - Uma tag (chave) para o documento atual
+
+--------------------------------------------------------------
+
+tags de lista html:
+
+type = personalizador de lista
+<!--Type 1 A a I i-->
+
+start = determinar o numero de inicio da lista
+<!--Disc circle square-->
+
+--------------------------------------------------------------

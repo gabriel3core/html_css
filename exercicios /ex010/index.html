@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens Dimanicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="./img/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio controls>
+        <source src="JoJo's Bizarre Adventure_ Stardust Crusaders OST - Stardust Crusaders.mp3" type="audio/mpeg">
+        <source src="JoJo's Bizarre Adventure_ Stardust Crusaders OST - Stardust Crusaders.ogg" type="audio/ogg">
+        <source src="JoJo's Bizarre Adventure_ Stardust Crusaders OST - Stardust Crusaders.wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegador nao consegue reproduzir audios, <a href="./JoJo's Bizarre Adventure_ Stardust Crusaders OST - Stardust Crusaders.mp3" download="JoJo's Bizarre Adventure_ Stardust Crusaders OST - Stardust Crusaders.mpeg" type="application/mpeg">clique aqui para baixar.</a></p>
+</body>
+</html>

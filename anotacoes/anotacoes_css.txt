@@ -1,0 +1,51 @@
+style = trasnferir informacoes de formatacao para tags de conteudo, dentro do html
+color = trocar a cor da letra
+font-family = trocar a fonte da letra
+font-size = tamanho da fonte
+hsl = escolher cores pela suas caracteristica
+rgb = escolher cor por codigos hexadecimais
+rgba = adiciona a funcao de transperecer a cor na funcao rgb
+hsla = adiciona a funcao de transperecer a cor na funcao hsl
+linear-gradiant = criar um gradiante com cores
+border-radius = arredondar os cantos do elemento html
+box-shadow = colocar sombra ao elemento html
+padding = definir a distancia entre o conteudo do elemento e as suas bordas
+margin = define a área de margem em torno de um elemento, fora de qualquer borda definida
+width = defina a largura da area do counteudo de um elemento html
+text-shadow = define sombra ao texto especifico
+id = seletor para mudar uma tag unica tag especifica
+class = seletor para mudar mais de uma tag especifica
+lign-height = altura entre linhas
+list-style-type: tipos de estilos da lista
+list-style-position: define a posicao dos marcadores (os pontos) de uma lista
+columns: dividir lista em colunas;
+content: usado para gerar um conteudo em um elemento, se aplica somente a ps
+
+backgrounds types
+
+background-color = trocar a cor do fundo
+background-attachment = imagem de fundo e fixa ou rola com o conteudo da pagina
+background-image = definir uma imagem como plano de fundo do elemento html
+
+Medidas absolutas
+cm, mm, in, px, pt, pc
+recomendada = px
+
+Medidas relativas
+em, ex, rem, vw, vh, %
+recomendada = em
+
+weight fonts / peso das fontes = lighter normal bold bolder
+
+weight = peso
+width = largura
+height = altura
+            
+shorthand font ordem:
+font-style -> font-weight -> font-size -> font-family
+
+# = id
+. = class
+: = pseudoclass
+:: = pseudo-element
+> = children

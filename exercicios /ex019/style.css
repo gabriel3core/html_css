@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: #C7F7FA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #48a84e;
+}
+
+h1#main{
+    text-align: center;
+    color: #0d7036;
+
+}
+
+h2{
+    color: #56afb8;
+}
+
+p{
+    text-align: justify;
+}
+
+.basic{
+    color: #15ff00;
+}
+
+.medium{
+    color: #aeb90f;
+}
+
+.avanced{
+    color: #ff0000;
+}
+
+.destaque{
+    background-color: #56aeb873;
+}
+
+/* id e # (so pode um elemento)
+   class e . (pode varios elementos)
+*/

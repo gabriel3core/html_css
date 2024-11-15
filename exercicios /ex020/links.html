@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+          # = id
+          . = class
+          : = pseudoclass
+          :: = pseudo-element
+          > = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        .especial{
+            background-color: orange;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        a::before{
+            content: ' →';
+        }
+
+        a::after{
+            content: ' ←';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@gab3core" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.instagram.com/g.izael_/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">Linkedin</a></li>
+        <li><a href="https://github.com/gabriel3core" target="_blank">GitHub</a></li>
+    </ul>
+</body>
+</html>
